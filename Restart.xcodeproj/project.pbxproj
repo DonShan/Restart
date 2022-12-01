@@ -14,6 +14,8 @@
 		29AF9EC42938BE17002231E1 /* RestartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF9EC32938BE17002231E1 /* RestartTests.swift */; };
 		29AF9ECE2938BE17002231E1 /* RestartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF9ECD2938BE17002231E1 /* RestartUITests.swift */; };
 		29AF9ED02938BE17002231E1 /* RestartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF9ECF2938BE17002231E1 /* RestartUITestsLaunchTests.swift */; };
+		29AF9EDE2938BFCD002231E1 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29AF9EDC2938BFCD002231E1 /* chimeup.mp3 */; };
+		29AF9EDF2938BFCD002231E1 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 29AF9EDD2938BFCD002231E1 /* success.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		29AF9EC92938BE17002231E1 /* RestartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29AF9ECD2938BE17002231E1 /* RestartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartUITests.swift; sourceTree = "<group>"; };
 		29AF9ECF2938BE17002231E1 /* RestartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		29AF9EDC2938BFCD002231E1 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
+		29AF9EDD2938BFCD002231E1 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		29AF9EB12938BE15002231E1 /* Restart */ = {
 			isa = PBXGroup;
 			children = (
+				29AF9EE02938BFEF002231E1 /* Sounds */,
 				29AF9EB22938BE15002231E1 /* RestartApp.swift */,
 				29AF9EB42938BE15002231E1 /* ContentView.swift */,
 				29AF9EB62938BE17002231E1 /* Assets.xcassets */,
@@ -125,6 +130,15 @@
 				29AF9ECF2938BE17002231E1 /* RestartUITestsLaunchTests.swift */,
 			);
 			path = RestartUITests;
+			sourceTree = "<group>";
+		};
+		29AF9EE02938BFEF002231E1 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				29AF9EDC2938BFCD002231E1 /* chimeup.mp3 */,
+				29AF9EDD2938BFCD002231E1 /* success.m4a */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +245,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29AF9EDF2938BFCD002231E1 /* success.m4a in Resources */,
+				29AF9EDE2938BFCD002231E1 /* chimeup.mp3 in Resources */,
 				29AF9EBA2938BE17002231E1 /* Preview Assets.xcassets in Resources */,
 				29AF9EB72938BE17002231E1 /* Assets.xcassets in Resources */,
 			);
