@@ -16,6 +16,8 @@
 		29AF9ED02938BE17002231E1 /* RestartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF9ECF2938BE17002231E1 /* RestartUITestsLaunchTests.swift */; };
 		29AF9EDE2938BFCD002231E1 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29AF9EDC2938BFCD002231E1 /* chimeup.mp3 */; };
 		29AF9EDF2938BFCD002231E1 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 29AF9EDD2938BFCD002231E1 /* success.m4a */; };
+		29AF9EE62938C4B3002231E1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF9EE52938C4B3002231E1 /* HomeView.swift */; };
+		29AF9EE82938C4C3002231E1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF9EE72938C4C3002231E1 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		29AF9EDC2938BFCD002231E1 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
 		29AF9EDD2938BFCD002231E1 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
 		29AF9EE42938C39D002231E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		29AF9EE52938C4B3002231E1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		29AF9EE72938C4C3002231E1 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,8 @@
 			isa = PBXGroup;
 			children = (
 				29AF9EB42938BE15002231E1 /* ContentView.swift */,
+				29AF9EE52938C4B3002231E1 /* HomeView.swift */,
+				29AF9EE72938C4C3002231E1 /* OnboardingView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -299,6 +305,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29AF9EE62938C4B3002231E1 /* HomeView.swift in Sources */,
+				29AF9EE82938C4C3002231E1 /* OnboardingView.swift in Sources */,
 				29AF9EB52938BE15002231E1 /* ContentView.swift in Sources */,
 				29AF9EB32938BE15002231E1 /* RestartApp.swift in Sources */,
 			);
